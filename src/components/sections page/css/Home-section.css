@@ -1,0 +1,36 @@
+@import url("../../../App.css");
+
+.hero-home-section{
+    width:100%;
+    height:500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:1.3em 0;
+    grid-gap:1em;
+}
+.hero-home-section .hero-home-image img{
+    width:100%;
+    height:80%;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    margin:10px 0;
+}
+.hero-home-section .hero-text-content{
+    width:100%;
+    grid-gap:0.6em;
+    display: block;
+    text-align: center;
+}
+.hero-text-content .title-hero h1{
+    text-transform: uppercase;
+    font-size:1.3em;
+    font-weight: 600;
+}
+.hero-text-content .hero-subtitle h2{
+    font-size:1em;
+    font-weight:300;
+    color:#373737;
+}
